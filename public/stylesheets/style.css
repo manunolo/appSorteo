@@ -1,0 +1,46 @@
+@import url("https://use.typekit.net/stx3mtr.css");
+
+body {
+  background-color: #00243b;
+  color: #ffffff;
+  padding: 50px;
+  font: 14px proxima-nova, Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.backgroundSelect{
+  background: #00243b;
+}
+.formularioInput{
+  color: #00e8fa !important;
+  background-color: inherit !important;
+  border: 0px !important;
+  border-bottom: 2px solid #00e8fa !important;
+  border-radius: 0px !important;
+}
+
+.botonRegistro {
+  background-color: #00e8fa;
+  color: #00243b;
+  border-radius: 15px;
+}
+/* Inputs numeric sin flechitas */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.imageInstagram{
+  width: 20px;
+  height: 20px;
+}
+.divAgradecimiento{
+  height: 500px;
+  display:grid;
+  place-items:center;
+}

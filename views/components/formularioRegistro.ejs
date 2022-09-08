@@ -1,0 +1,34 @@
+<form class="w-100 pb-5 mb-5" action="/inscriptos/new" method="POST">
+  	<label class="pt-5" for="nombreinput" class="form-label">Nombre</label>
+  	<input type="text" class="form-control formularioInput" id="nombreinput" placeholder="Nombre">
+  	<label class="pt-5" for="apellidoinput" class="form-label">Apellido</label>
+  	<input type="text" class="form-control formularioInput" id="apellidoinput" placeholder="Apellido">
+  	<label class="pt-5" for="emailinput" class="form-label">E-Mail</label>
+  	<input type="email" class="form-control formularioInput" id="emailinput" placeholder="potenciarnos@email.com">
+  	<label class="pt-5" for="telefonoinput" class="form-label">Celular <small>(sin 0 ni 15)</small></label>
+  	<input type="number" class="form-control formularioInput" id="telefonoinput" placeholder="telefono">
+  	<label class="pt-5" for="escuelaselect" class="form-label">Escuela</label>
+	<select class="custom-select formularioInput" aria-label=".form-select-lg example" id="escuelaselect"></label>
+		<option selected hidden>- Seleccione la escuela que cursa/representa - </option>
+		<option class="backgroundSelect" value="Nº 208 'Dr. Juan Bautista Alberdi'">Escuela Nº 208 "Dr. Juan Bautista Alberdi"</option>
+		<option class="backgroundSelect" value="Nº 348 'Gral. José Tomás Guido'">Escuela Nº 348 "Gral. José Tomás Guido"</option>
+		<option class="backgroundSelect" value="Nº 381 'María Fernández de Carbonell'">Escuela Nº 381 "María Fernández de Carbonell"</option>
+		<option class="backgroundSelect" value="Nº 586 'Héroes de Malvinas'">Escuela Nº 586 "Héroes de Malvinas"</option>
+		<option class="backgroundSelect" value="Nº 669 'San Martín'">Escuela Nº 669 "San Martín"</option>
+		<option class="backgroundSelect" value="Nº 1189 'E.E.M.P.A)">Escuela Nº 1189 (E.E.M.P.A)</option>
+		<option class="backgroundSelect" value="Nº 2073 'San Pablo'">Escuela Nº 2073 "San Pablo"</option>
+		<option class="backgroundSelect" value="Nº 3054 'Mater Dei'">Escuela Nº 3054 "Mater Dei"</option>
+		<option class="backgroundSelect" value="Nº 3080 'Dante Alighieri'">Escuela Nº 3080 "Dante Alighieri"</option>
+		<option class="backgroundSelect" value="Nº 8186 'Hijas de Cristo Rey'">Escuela Nº 8186 "Hijas de Cristo Rey"</option>
+	</select>
+  	<label class="pt-5" for="cargoselect" class="form-label">Cargo <small>(Rol que cumple)</small></label>
+	<select class="custom-select formularioInput" aria-label=".form-select-lg example" id="cargoselect">
+		<option selected hidden>- Seleccione rol que cumple </option>
+		<option class="backgroundSelect" value="Alumno">Alumno</option>
+		<option class="backgroundSelect" value="Profesor">Profesor</option>
+		<option class="backgroundSelect" value="Directivo">Directivo</option>
+		<option class="backgroundSelect" value="Empresa">Empresa</option>
+		<option class="backgroundSelect" value="Otros">Otros</option>
+	</select>
+	<button type="submit" class="btn mt-5 w-100 botonRegistro" style="background-color:">REGISTRARSE</button>
+</form>
