@@ -8,13 +8,22 @@ module.exports = (sequelize, DataTypes) => {
             unique: true
         },
         nombre: {
-            type: DataTypes.STRING(100)
+            type: DataTypes.STRING,
         },
         apellido: {
-            type: DataTypes.STRING(100)
+            type: DataTypes.STRING,
         },
-        email: {
-            type: DataTypes.STRING(100)
+        mail: {
+            type: DataTypes.STRING,
+        },
+        celular: {
+            type: DataTypes.BIGINT,
+        },
+        escuela: {
+            type: DataTypes.STRING,
+        },
+        cargo: {
+            type: DataTypes.STRING,
         },
     }, {
         tableName: 'inscriptos',
