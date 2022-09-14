@@ -6,14 +6,8 @@ module.exports = {
             return inscriptos;
         });
 
-        let randomInscripto = (inscriptos) => {
-            return setTimeout(()=>{
-                console.log('hola');
-            },2000)
-        }
-
         Promise.all([inscriptos]).then(([inscriptos]) => {
-            return response.render('index',{inscriptos, randomInscripto});
+            return response.render('index',{inscriptos});
         });
     },
     registro(request, response){

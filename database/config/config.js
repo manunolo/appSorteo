@@ -1,23 +1,23 @@
 module.exports = {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "appsorteo",
-    "host": "127.0.0.1",
+    "username": "280949",
+    "password": 'AppSorteo',
+    "database": "manunolodb_appsorteo",
+    "host": "mysql-manunolodb.alwaysdata.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "appsorteo",
-    "host": "127.0.0.1",
+    "username": "280949",
+    "password": 'AppSorteo',
+    "database": "manunolodb_appsorteo",
+    "host": "mysql-manunolodb.alwaysdata.net",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "appsorteo",
-    "host": "127.0.0.1",
+    "username": "280949",
+    "password": 'AppSorteo',
+    "database": "manunolodb_appsorteo",
+    "host": "mysql-manunolodb.alwaysdata.net",
     "dialect": "mysql"
   }
 }
