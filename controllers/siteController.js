@@ -5,8 +5,15 @@ module.exports = {
         let inscriptos = db.Inscriptos.findAll().then((inscriptos) => {
             return inscriptos;
         });
+
+        let randomInscripto = (inscriptos) => {
+            return setTimeout(()=>{
+                console.log('hola');
+            },2000)
+        }
+
         Promise.all([inscriptos]).then(([inscriptos]) => {
-            return response.render('index',{inscriptos});
+            return response.render('index',{inscriptos, randomInscripto});
         });
     },
     registro(request, response){

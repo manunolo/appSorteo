@@ -1,1 +1,12 @@
-vistaSorteo
+<div class="mt-5 card border-0  text-center h1" style="margin-bottom:15%;">
+    <div class="card-header botonRegistro">
+        Ganador del sorteo
+    </div>
+    <div class="card-body backgroundSelect">
+        <h5 class="card-title h2">FELICITACIONES!!!</h5>
+        <% var inscripto = inscriptos[Math.floor(Math.random() * inscriptos.length)]%>
+        <%= inscripto.nombre + " " + inscripto.apellido %>
+        <p class="card-text"></p>
+        <a href="/" class="btn btn-primary">Proximo</a>
+    </div>
+</div>
